@@ -1,0 +1,31 @@
+
+body{
+
+	
+}
+form{
+	margin: 0 auto;
+	width: 250px;
+	text-align: center;
+}
+#wrapper{
+	
+}
+
+#box{
+	width:300px;
+	border: solid 1px #333333;
+	text-align:center;
+	
+}
+#boxinfo{
+	margin:30px;
+}
+#login{
+	background-color:#333333;
+	color:#FFFFFF; 
+	padding:3px;"
+}
+input{
+	text-align: left;
+}
