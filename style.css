@@ -30,6 +30,7 @@ form{
 }
 
 #box{
+	/*witdh voisi olla kapeampi jotta toimii mobiilissa*/
 	width:300px;
 	text-align:center;
 	border-radius: 25px;
