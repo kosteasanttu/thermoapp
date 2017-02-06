@@ -1,5 +1,30 @@
 html{
 	height: 100%;
+	max-width: 100%;
+}
+
+table{
+	margin-left: 40%;
+	margin-top: 0px;
+}
+#left li{
+	display:block;
+	width:5px;
+}
+
+#left a{
+	color: #000000;
+	text-decoration:none;
+	background-color: #C0C0C0;
+	display:inline-block;
+	line-height:3em;
+	text-align:center;
+	width: 200px;
+
+}
+
+#left a:hover{
+	background-color:#3CB371;
 }
 
 body{
@@ -9,12 +34,8 @@ background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
 background-size: cover;
-height: 90%;
+height: 100%;
 margin:auto;
-}
-
-#banner{
-	text-align: left;
 }
 
 form{
@@ -26,7 +47,12 @@ form{
 #wrapper{
 	padding-top: 10px;
 	padding-bottom: 10px;
-	height: 80%;
+	height: 100%;
+}
+
+#wrapperi{
+	padding-top: 10px;
+	max-width: 300px;
 }
 
 #box{
@@ -36,7 +62,6 @@ form{
 	border-radius: 25px;
     border: 2px solid #333333;
     padding: 20px; 
-	
 }
 
 #boxinfo{
@@ -67,7 +92,7 @@ footer {
 	text-align: center;
 	font-size: 10px;
 	float: left;
-	height: 10%;
+	height: 50px;
 	width: 100%;
 	position: relative;
 	background-color: rgba(0,0,0,0.2);
