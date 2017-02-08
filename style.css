@@ -1,6 +1,8 @@
 *{
 	padding: 0px;
-	margin: 0px;
+	margin-top: 16px;
+    margin-bottom: 5px;
+    height: 10px;
 }
 html{
 	height: 100%;
