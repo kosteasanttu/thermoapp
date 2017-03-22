@@ -16,14 +16,12 @@
    
       <div id="wrapper">
          <div id="box">
-            <div id="login"><b>Login</b></div>
+            <div id="login"><b>Olet kirjautunut ulos!</b></div>
             
             <div id="boxinfo">
                
-               <form action = "tokasivu2.html" method = "post">
-                  <label>Username: </label><input type = "text" name = "username" class = "box" placeholder="Enter Username" maxlength="12" /><br /><br />
-                  <label>Password:  </label><input type = "password" name = "password" class = "box" placeholder="Enter Password" maxlength="12" /><br/><br />
-                  <input type = "submit" value = " Submit " /><br />
+               <form action="index.php" method="post">
+                  <input type = "submit" value = " Kirjaudu sisään uudelleen " /><br />
                </form>
                
             </div>

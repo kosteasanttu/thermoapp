@@ -19,6 +19,25 @@ body {
 h1{
 	text-align: center;
 }
+h4{
+	text-align: center;
+	-webkit-text-stroke: .5px black
+}
+
+#help{
+	text-align: left;
+	margin-left: 25px;
+}
+#idea{
+	text-align: left;
+	margin-left: 25px;
+}
+
+#idea_kuva{
+	margin-bottom: 25px;
+	margin-left: 25px;
+}
+
 #wrapper {
 	min-height:100%;
 	position:relative;

@@ -16,7 +16,6 @@ html{
 	background-color: green;
 }
 
-
 table{
 	margin-left: 30%;
 	margin-top: -600px;
@@ -53,7 +52,7 @@ body{
 text-align: center;
 background: url("img/yea.jpg");
 background-repeat: no-repeat;
-background-position: center center;
+background-position:center;
 background-attachment: fixed;
 background-size: cover;
 height: 100%;
