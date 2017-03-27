@@ -10,7 +10,7 @@
    </head>
 
    <?php
-   include("config.php");
+   include("dbconnecttest.php");
    session_start();
    
    if($_SERVER["REQUEST_METHOD"] == "POST") {
