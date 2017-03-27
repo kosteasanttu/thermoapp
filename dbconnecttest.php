@@ -18,7 +18,8 @@
    		echo "something went wrong.... failed to connect database" + mysqli_connect_error();
    		exit();
    	}
-   	echo "connected to database =)"
+   	//echo "connected to database =)"
+       system.out.println("connected to database");
 	?>
 
    </body>
