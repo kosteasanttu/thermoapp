@@ -32,26 +32,30 @@
             </ul>
 		</div><!-- #header -->
 		
-		<div id="addform">
-            
-            
-        <form action="insertpatient.php" method="post">
+        
+        <div id = "box">
+        <div id = "boxinfo">
+		<div id="addform">  
+            <h1>Add patient</h1>
+        <form  action="insertpatient.php" method="post">
             <p>
-            <label>Ssn: </label>
+            <label><h3>Ssn: </h3></label>
             <input type= "text" name = "ssn" class ="box">
             </p>
             <p>
-            <label>Name: </label>
+            <label><h3>Name: </h3></label>
             <input type="text" name="name" class = "box">
             </p>
             <p>
-            <label>Location:  </label>
+            <label><h3>Location:  </h3></label>
             <input type="number" name="location" class="box">
             </p>
-            <input type="submit" value="Submit">
+            <input class = "submit" type="submit" value="Add">
         </form>
 			
 		</div><!-- #content -->
+            </div>
+            </div>
 		
 		<div id="footer">
 			&#169;ThermoApp<p>Ryhmä 3 SKK</p>

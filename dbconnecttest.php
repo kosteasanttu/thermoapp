@@ -19,7 +19,7 @@
    		exit();
    	}
    	//echo "connected to database =)"
-       
+    echo '<script>console.log("Connection to database opened succesfylly")</script>';
 	?>
 
    </body>

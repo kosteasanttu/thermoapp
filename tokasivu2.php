@@ -29,24 +29,45 @@
             <li class="right"><a href="ulos.php">Log out</a></li>
             </ul>
 		</div><!-- #header -->
-		
-		<div id="content">
-			<table class="taulukko" border="1">
-				<caption><h1>Potilastiedot</h1></caption>
-				<tr><th>Potilas</th><th>Lämpötila</th><th>Sijainti</th><th>Tila</th></tr>
-				<tr><td>potilas1</td><td>40,2&deg;C</td><td>401</td><td class="Tila1"></td></tr>
-				<tr><td>potilas2</td><td>39,6&deg;C</td><td>401</td><td class="Tila1"></td></tr>
-				<tr><td>potilas3</td><td>38,3&deg;C</td><td>401</td><td class="Tila1"></td></tr>
-				<tr><td>potilas4</td><td>37,3&deg;C</td><td>402</td><td class="Tila2"></td></tr>
-				<tr><td>potilas5</td><td>37,2&deg;C</td><td>403</td><td class="Tila2"></td></tr>
-				<tr><td>potilas6</td><td>37,2&deg;C</td><td>403</td><td class="Tila2"></td></tr>
-				<tr><td>potilas7</td><td>37&deg;C</td><td>404</td><td class="Tila2"></td></tr>
-				<tr><td>potilas8</td><td>36,5&deg;C</td><td>405</td><td class="Tila3"></td></tr>
-				<tr><td>potilas9</td><td>36,7&deg;C</td><td>405</td><td class="Tila3"></td></tr>
-				<tr><td>potilas10</td><td>36,4&deg;C</td><td>405</td><td class="Tila3"></td></tr>
-			</table>
+        
+        
+            <div id="content">
+            <table class="taulukko" border="1">
+              <tr>
+                <th>SSN</th>
+                <th>NAME</th>
+                <th>LOCATION</th>
+                <th>TEMPERATURE</th>
+              </tr>  
+                
+        <?php
+        include("dbconnecttest.php");
+        session_start();
+        $query = "SELECT * FROM `patients` ORDER BY ssn, name, location";
+        $listresult = mysqli_query($db,$query);
+        if($listresult === false){
+            echo "query failed:" + mysqli_error($db);
+        }
+            else{
+                while($row = mysqli_fetch_assoc($listresult)){
+                   // var_dump($row);      
+        ?>
+		<tr>
+            <td><?php echo $row['ssn']?></td>
+            <td><?php echo $row['name']?></td>
+            <td><?php echo $row['location']?></td>
+        </tr>
+			
+		<?php
+            }
+            }
+            ?>
+        
+        </table>
+            
+            
 		</div><!-- #content -->
-		
+        
 		<div id="footer">
 			&#169;ThermoApp<p>Ryhmä 3 SKK</p>
 		</div><!-- #footer -->

@@ -36,6 +36,7 @@
          echo("efkekfekf");
       }else {
          $error = "Your Login Name or Password is invalid";
+          echo '<script>alert("Wrong username or password")</script>';
          }
       }
       ?>
@@ -52,7 +53,7 @@
                <form action = "" method = "post">
                   <label>Userame  :</label><input type = "text" name = "username" class = "box"/><br /><br />
                   <label>Password  :</label><input type = "password" name = "password" class = "box" /><br/><br />
-                  <input type = "submit" value = " Submit "/><br />
+                  <input class = "submit" type = "submit" value = " Login "/><br />
                </form>
                
             </div>
