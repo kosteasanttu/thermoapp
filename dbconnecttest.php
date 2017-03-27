@@ -19,7 +19,7 @@
    		exit();
    	}
    	//echo "connected to database =)"
-       system.out.println("connected to database");
+       
 	?>
 
    </body>
