@@ -51,7 +51,7 @@
             <div id="boxinfo">
                
                <form action = "" method = "post">
-                  <label>Userame  :</label><input type = "text" name = "username" class = "box"/><br /><br />
+                  <label>Username  :</label><input type = "text" name = "username" class = "box"/><br /><br />
                   <label>Password  :</label><input type = "password" name = "password" class = "box" /><br/><br />
                   <input class = "submit" type = "submit" value = " Login "/><br />
                </form>
