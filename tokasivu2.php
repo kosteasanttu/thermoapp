@@ -41,7 +41,7 @@
                 <th>SSN</th>
                 <th>NAME</th>
                 <th>LOCATION</th>
-                <th>TEMPERATURE</th>
+                <th>TEMP</th>
               </tr>  
                 
         <?php
