@@ -15,6 +15,9 @@ body {
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
+    background: url("img/yea.jpg");
+    min-height:100%;
+	position:relative;
 }
 h1{
 	text-align: center;
