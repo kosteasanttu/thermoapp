@@ -22,7 +22,7 @@
 		
 		<div id="header">
 			<ul class="topnav">
-            <li><a class="tokasivu2" href="tokasivu2.html">Home</a></li>
+            <li><a class="tokasivu2" href="tokasivu2.php">Home</a></li>
             <li><a class="help" href="help.php">Help</a></li>
             <li><a class="contact" href="contact.php">Contact</a></li>
             <li><a href="add.php">Add Patient</a></li>
