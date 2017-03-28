@@ -16,7 +16,7 @@ $location = mysqli_real_escape_string($db, $_REQUEST['location']);
 $sql = "INSERT INTO patients (ssn, name, location) VALUES ('$ssn', '$name', '$location')";
 if(mysqli_query($db, $sql)){
     echo "Records added successfully.";
-    echo "<br></br>"
+    echo "<br></br>";
     echo '<a href="http://users.metropolia.fi/~santtumk/uusitesti/tokasivu2.php">  Back to patientslist</a>';
     usleep(2000);
 header("http://users.metropolia.fi/~santtumk/uusitesti/tokasivu2.php");
