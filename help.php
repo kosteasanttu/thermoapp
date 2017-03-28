@@ -18,7 +18,7 @@
 
 	<div id="wrapper">
 		<div id="banner"></div>
-            <a href = "tokasivu2.php">
+            <a id ="kuvanlinkki" href = "tokasivu2.php">
 			<img id="banner" src="img/testitesti.png" alt="ThermoApp">
 		      <a/>
 		<div id="header">
