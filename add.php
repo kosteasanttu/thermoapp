@@ -44,15 +44,15 @@
         <form  action="insertpatient.php" method="post">
             <p>
             <label><h3>Ssn: </h3></label>
-            <input type= "text" name = "ssn" class ="box">
+            <input type= "text" minlenght="11" maxlength="11" name = "ssn" class ="box">
             </p>
             <p>
             <label><h3>Name: </h3></label>
-            <input type="text" name="name" class = "box">
+            <input type="text" minlenght="1" name="name" class = "box">
             </p>
             <p>
             <label><h3>Location:  </h3></label>
-            <input type="number" name="location" class="box">
+            <input type="number" minlenght="1" maxlength="3" name="location" class="box">
             </p>
             <input class = "submit" type="submit" value="Add">
         </form>
