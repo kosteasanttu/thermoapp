@@ -291,35 +291,14 @@ h1 #box{
 }
 about{
     width: 40%;
-    float: left;
+    float: right;
     display: block;
-}
-about1{
-    width: 40%;
-    float: left;
-    display: block;
-}
-.about h1{
-	text-align: left;
-	padding-left:50%;
+    max-height:80%;
+    margin:0;
+    text-align: left;
 }
 
-.about h2{
-	text-align: left;
-	padding-left: 50%;
-}
 
-.about p{
-	text-align: left;
-	padding-left: 50%;
-	max-width: 40%px;
-}
-.about1 p{
-	text-align: left;
-	padding-left: 50%;
-	max-width: 50%;
-	padding-bottom: 10px;
-}
 .nurse_vasen{
     max-width: 40%;
     max-height: 30%;
