@@ -22,11 +22,11 @@
 		
 		<div id="header">
 			<ul class="topnav">
-            <li><a class="tokasivu2" href="tokasivu2.php">Home</a></li>
-            <li><a class="help" href="help.php">Help</a></li>
-            <li><a class="contact" href="contact.php">Contact</a></li>
-            <li><a href="add.php">Add Patient</a></li>
-            <li><a href="delete.php">Delete Patient</a></li>
+            <li><a href="tokasivu2.php">Patient list</a></li>
+            <li><a class="add_patient" href="add_patient.php">Add patient</a></li>
+            <li><a class="delete_patient" href="delete_patient.php">Delete patient</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
             <li class="right"><a href="ulos.php">Log out</a></li>
             </ul>
 		</div><!-- #header -->
