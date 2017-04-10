@@ -289,7 +289,7 @@ h1 #box{
 	position:relative;
 	top:1px;
 }
-about{
+.about{
     width: 40%;
     float: right;
     display: block;
