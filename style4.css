@@ -290,7 +290,7 @@ h1 #box{
 	top:1px;
 }
 .about{
-    width: 40%;
+    width: 50%;
     float: right;
     display: block;
     max-height:80%;
@@ -303,5 +303,6 @@ h1 #box{
     max-width: 40%;
     max-height: 30%;
     margin: 0;
+    display: initial;
     
 }

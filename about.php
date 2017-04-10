@@ -38,10 +38,11 @@
 		</div>
 
 		<div class="about">
-			<h1 class="about">About</h1>
-			<h2 class="about">Purpose of the application:</h2>
+            
+			<h1 class="abouth1">About</h1>
+			<h2 class="abouth2">Purpose of the application:</h2>
 			<p>ThermoApp is designed to the hospital environment, which is intended for monitoring the temperature values. The purpose of the application is that the hospital staff will be able to examine patients’ temperature values at the same time from the screen. So basically the application is designed to save nurses time in the hospital environment.</p>
-			<h2 class="about">For nurses:</h2>
+			<h2 class="abouth5">For nurses:</h2>
 
 			<div class="about1">
 				<p>Every nurse has their own individual login info. Temperature is measured automatically, value goes to database and is shown in the application. By a quick view nurses can see every patient’s temperature values at the same time. To add a new patient you will need patient’s social security number (SSN) to identify the patient, set patients name and the patient’s location.  Nurses has permission to add and delete patients from the application. The application will give an alert if temperature rises above certain temperature. Alert means that the patient needs to be checked. </p>
