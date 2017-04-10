@@ -289,6 +289,16 @@ h1 #box{
 	position:relative;
 	top:1px;
 }
+about{
+    width: 40%;
+    float: left;
+    display: block;
+}
+about1{
+    width: 40%;
+    float: left;
+    display: block;
+}
 .about h1{
 	text-align: left;
 	padding-left:50%;
