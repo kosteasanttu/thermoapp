@@ -16,13 +16,9 @@
 
 <body>
 
-    <a href="tokasivu2.php">
-    <img id="banner" src="img/testitesti.png" alt="ThermoApp">
-    </a>
-    
 	<div id="wrapper">
 		<div id="banner"></div>
-			
+			<img id="banner" src="img/testitesti.png" alt="ThermoApp">
 		
 		<div id="header">
 			<ul class="topnav">
@@ -31,6 +27,7 @@
             <li><a href="help.php">Help</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="add.php">Add Patient</a></li>
+            <li><a href="delete.php">Delete Patient</a></li>
             <li class="right"><a href="ulos.php">Log out</a></li>
 
             </ul>
