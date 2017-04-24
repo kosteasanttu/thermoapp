@@ -48,10 +48,10 @@ if(count($response_members->body->data) >= 1){
     $member_id = $response_members->body->data[1]->id;
     $parameters = [
         'member_id' => $member_id,
-        'sensor_id' => 'blood_dias',
-        'ts_start' => '2015-01-01 00:00:00',
-        'ts_end' => '2018-01-01 13:10:00',
-        'limit' => '30',
+        'sensor_id' => 'temp',
+        'ts_start' => '2017-24-04 11:00:00',
+        'ts_end' => '2017-24-04 12:11:00',
+        'limit' => '5',
         'cursor' => '0',
         'order' => 'desc'
     ];
