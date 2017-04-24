@@ -41,23 +41,25 @@ if($response_login->code == 200){
 $response_members = \Httpful\Request::get($api_base . '/members')
     ->addHeaders($api_headers)
     ->send();
-echo "2.- Get my members: <br><br><pre>".json_encode($response_members->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
+
+//echo "2.- Get my members: <br><br><pre>".json_encode($response_members->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
+
 // 2.1 get the dates when the user X was using the box
 //3.- Get values from the first of my members
 if(count($response_members->body->data) >= 4){
     $member_id = $response_members->body->data[4]->id;
     $parameters = [
-        'member_id' => '185',
+        //'member_id' => '185',
         'sensor_id' => 'temp',
-        'ts_start' => '2017-04-24 08:00:00',
-        'ts_end' => '2017-04-24 09:00:00',
-        'limit' => '10',
-        'cursor' => '0',
-        'order' => 'desc'
+        //'ts_start' => '2017-04-24 08:00:00',
+        //'ts_end' => '2017-04-24 09:00:00',
+        //'limit' => '10',
+        //'cursor' => '0',
+        //'order' => 'desc'
     ];
     $response_values = \Httpful\Request::get($api_base . '/values?'.http_build_query($parameters))
         ->addHeaders($api_headers)
         ->send();
      echo "3.- Get values from one member (member_id= ".$member_id."): <br><br><pre>".json_encode($response_values->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
-     echo .json_encode($value);
+     echo "debuggaus lämpötilan arvon saamiseksi".json_encode($value);
 }
