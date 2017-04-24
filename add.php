@@ -40,7 +40,7 @@
             <h1>Add patient</h1>
         <form  action="insertpatient.php" method="post">
             <p>
-            <label><h3>Ssn: </h3></label>
+            <label><h3>SSN: </h3></label>
             <input type= "text" name = "ssn" class ="box">
             </p>
             <p>
