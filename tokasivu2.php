@@ -31,7 +31,7 @@
             </ul>
 		</div><!-- #header -->
         <div id="refresh">
-        <button onclick="window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/mySignalsexample.php'">Refresh</button>
+        <button class="submit" onclick="window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/mySignalsexample.php'">Refresh</button>
         </div>
         
             <div id="content">
