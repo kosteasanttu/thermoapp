@@ -59,4 +59,5 @@ if(count($response_members->body->data) >= 4){
         ->addHeaders($api_headers)
         ->send();
      echo "3.- Get values from one member (member_id= ".$member_id."): <br><br><pre>".json_encode($response_values->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
+     echo .json_encode($value);
 }
