@@ -27,7 +27,7 @@
             <li><a class="add_patient" href="add.php">Add patient</a></li>
             <li><a class="delete_patient" href="delete.php">Delete patient</a></li>
             <li><a href="about.php">About</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a class="selected" href="contact.php">Contact</a></li>
             <li class="right"><a href="ulos.php">Log out</a></li>
 
             </ul>

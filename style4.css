@@ -37,7 +37,7 @@ h4{
 }
 
 .selected {
-    background-color: yellow;
+    background-color: black;
 }
 
 #idea_kuva{
@@ -315,3 +315,19 @@ h1 #box{
     text-align: center;
     margin:2px;
 }
+
+.add_patient{
+
+	background-color: black;
+}
+
+.delete_patient{
+
+	background-color: black;
+}
+
+.right{
+
+	background-color: black;
+}
+
