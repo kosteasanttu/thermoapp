@@ -36,9 +36,7 @@ h4{
 	margin-left: 25px;
 }
 
-.selected {
-    background-color: black;
-}
+
 
 #idea_kuva{
 	margin-bottom: 25px;
@@ -326,8 +324,7 @@ h1 #box{
 	background-color: black;
 }
 
-.right{
 
-	background-color: black;
+.selected {
+    background-color: black;
 }
-

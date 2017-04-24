@@ -25,7 +25,7 @@
 		<div id="header">
 			<ul class="topnav">
             <li><a href="tokasivu2.php">Patient list</a></li>
-            <li><a class="add_patient" href="add.php">Add patient</a></li>
+            <li><a href="add.php">Add patient</a></li>
             <li><a class="delete_patient" href="delete.php">Delete patient</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="contact.php">Contact</a></li>
