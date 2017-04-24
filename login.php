@@ -42,7 +42,7 @@
           </sctipt>';
           */
          echo ("<SCRIPT LANGUAGE='JavaScript'>
-            window.alert('Wrong username of password')
+            window.alert('Wrong username or password')
             window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/index.php';
             </SCRIPT>");
          }
