@@ -68,8 +68,10 @@ if(count($response_members->body->data) >= 4){
     //echo "which failed?";
     //var_dump($response_values->body["data"]);
     foreach($response_values->body->data as $key => $val){
-        echo "k: " . $key . " => value: ";
-        var_dump($val);
+        //echo "k: " . $key . " => value: ";
+        //var_dump($val);
+        //trying to get the temp
+        echo "temp ?" . $response_values->body->data[$key]->value . "\n";
     }
 
     echo "</pre>";
