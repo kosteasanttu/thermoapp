@@ -65,10 +65,11 @@ if(count($response_members->body->data) >= 4){
     echo "<pre>";
     //var_dump($response_values->body);
     var_dump($response_values->body->data);
-    echo "which filed?";
+    //echo "which failed?";
     //var_dump($response_values->body["data"]);
     foreach($response_values->body->data as $key => $val){
-        echo "k: $key => $val";
+        echo "k: " . $key . " => value: ";
+        var_dump($val);
     }
 
     echo "</pre>";
