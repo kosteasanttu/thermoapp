@@ -107,7 +107,7 @@ if(count($response_members->body->data) >= 4){
 
         echo ("<SCRIPT LANGUAGE='JavaScript'>
                 window.alert('temperature data uppdated!')
-                window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/mySignalsexample.php';
+                window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/tokasivu2.php';
                 </SCRIPT>");
 
         exit();

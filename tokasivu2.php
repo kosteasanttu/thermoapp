@@ -30,7 +30,9 @@
             <li class="right"><a href="ulos.php">Log out</a></li>
             </ul>
 		</div><!-- #header -->
-        
+        <div id="refresh">
+        <button onclick="window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/mySignalsexample.php'">Continue</button>
+        </div>
         
             <div id="content">
             <table class="taulukko" border="1">
