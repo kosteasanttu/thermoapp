@@ -63,11 +63,13 @@ if(count($response_members->body->data) >= 4){
      echo "3.- Get values from one member (member_id= ".$member_id."): <br><br><pre>".json_encode($response_values->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
      echo "debuggaus lämpötilan arvon saamiseksi".json_encode($value);
     echo "<pre>";
-    var_dump($response_values->body);
+    //var_dump($response_values->body);
     var_dump($response_values->body->data);
     echo "which filed?";
-        var_dump($response_values->body["data"]);
-
+    //var_dump($response_values->body["data"]);
+    foreach($response_values->body->data as $key => $val){
+        echo "k: $key => $val";
+    }
 
     echo "</pre>";
 }
