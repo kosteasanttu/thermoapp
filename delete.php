@@ -34,16 +34,16 @@
 		</div><!-- #header -->
 		
         
-        <div id = "box">
-        <div id = "boxinfo">
+        <div id ="box">
+        <div id ="boxinfo">
 		<div id="addform">  
             <h1>Delete patient by ssn</h1>
         <form  action="deletepatient.php" method="post">
             <p>
             <label><h3>SSN: </h3></label>
-            <input type= "text" name = "ssn" class ="box">
+            <input type="text" name="ssn" class="box">
             </p>
-            <input class = "submit" type="submit" value="Delete">
+            <input class="submit" type="submit" value="Delete">
         </form>
 			
 		</div><!-- #content -->

@@ -34,24 +34,24 @@
 		</div><!-- #header -->
 		
         
-        <div id = "box">
-        <div id = "boxinfo">
+        <div id ="box">
+        <div id ="boxinfo">
 		<div id="addform">  
             <h1>Add patient</h1>
         <form  action="insertpatient.php" method="post">
             <p>
             <label><h3>SSN: </h3></label>
-            <input type= "text" name = "ssn" class ="box">
+            <input type= "text" name="ssn" class="box">
             </p>
             <p>
             <label><h3>Name: </h3></label>
-            <input type="text" name="name" class = "box">
+            <input type="text" name="name" class="box">
             </p>
             <p>
             <label><h3>Location:  </h3></label>
             <input type="number" name="location" class="box">
             </p>
-            <input class = "submit" type="submit" value="Add">
+            <input class="submit" type="submit" value="Add">
         </form>
 			
 		</div><!-- #content -->
