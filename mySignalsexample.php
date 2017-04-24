@@ -47,7 +47,7 @@ echo "2.- Get my members: <br><br><pre>".json_encode($response_members->body, JS
 if(count($response_members->body->data) >= 1){
     $member_id = $response_members->body->data[1]->id;
     $parameters = [
-        'member_id' => $member_id,
+        'member_id' => '185',
         'sensor_id' => 'temp',
         'ts_start' => '2017-04-24 08:00:00',
         'ts_end' => '2017-04-24 12:11:00',
@@ -58,5 +58,5 @@ if(count($response_members->body->data) >= 1){
     $response_values = \Httpful\Request::get($api_base . '/values?'.http_build_query($parameters))
         ->addHeaders($api_headers)
         ->send();
-    echo "3.- Get values from one member (member_id= '185'): <br><br><pre>".json_encode($response_values->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
+     echo "3.- Get values from one member (member_id= ".$member_id."): <br><br><pre>".json_encode($response_values->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
 }
