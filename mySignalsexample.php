@@ -64,5 +64,10 @@ if(count($response_members->body->data) >= 4){
      echo "debuggaus lämpötilan arvon saamiseksi".json_encode($value);
     echo "<pre>";
     var_dump($response_values->body);
+    var_dump($response_values->body->data);
+    echo "which filed?";
+        var_dump($response_values->body["data"]);
+
+
     echo "</pre>";
 }
