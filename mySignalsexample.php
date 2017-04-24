@@ -44,8 +44,8 @@ $response_members = \Httpful\Request::get($api_base . '/members')
 echo "2.- Get my members: <br><br><pre>".json_encode($response_members->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
 // 2.1 get the dates when the user X was using the box
 //3.- Get values from the first of my members
-if(count($response_members->body->data) >= 1){
-    $member_id = $response_members->body->data[1]->id;
+if(count($response_members->body->data) >= 4){
+    $member_id = $response_members->body->data[4]->id;
     $parameters = [
         'member_id' => '185',
         'sensor_id' => 'temp',
