@@ -49,13 +49,13 @@ $response_members = \Httpful\Request::get($api_base . '/members')
 if(count($response_members->body->data) >= 4){
     $member_id = $response_members->body->data[4]->id;
     $parameters = [
-        //'member_id' => '185',
+        'member_id' => '185',
         'sensor_id' => 'temp',
-        //'ts_start' => '2017-04-24 08:00:00',
-        //'ts_end' => '2017-04-24 09:00:00',
-        //'limit' => '10',
-        //'cursor' => '0',
-        //'order' => 'desc'
+        'ts_start' => '2017-04-24 08:00:00',
+        'ts_end' => '2017-04-24 09:00:00',
+        'limit' => '10',
+        'cursor' => '0',
+        'order' => 'desc'
     ];
     $response_values = \Httpful\Request::get($api_base . '/values?'.http_build_query($parameters))
         ->addHeaders($api_headers)
