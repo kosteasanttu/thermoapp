@@ -310,3 +310,7 @@ h1 #box{
     display: initial;
     
 }
+#refresh {
+    justify-content: center;
+    text-align: center;
+}
