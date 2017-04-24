@@ -62,6 +62,7 @@ if(count($response_members->body->data) >= 4){
         ->send();
      echo "3.- Get values from one member (member_id= ".$member_id."): <br><br><pre>".json_encode($response_values->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
      echo "debuggaus lämpötilan arvon saamiseksi".json_encode($value);
+    
     echo "<pre>";
     //var_dump($response_values->body);
     var_dump($response_values->body->data);
@@ -74,5 +75,12 @@ if(count($response_members->body->data) >= 4){
         echo "temp ?" . $response_values->body->data[$key]->value . "\n";
     }
 
+    echo "</pre>";
+    
+    echo "<pre>";
+    
+    $ptemp = $response_values->body->data[$key]->value;
+        echo $ptemp;
+        
     echo "</pre>";
 }
