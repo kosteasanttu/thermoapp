@@ -49,9 +49,9 @@ if(count($response_members->body->data) >= 1){
     $parameters = [
         'member_id' => $member_id,
         'sensor_id' => 'temp',
-        'ts_start' => '2017-24-04 11:00:00',
-        'ts_end' => '2017-24-04 12:11:00',
-        'limit' => '5',
+        'ts_start' => '2017-04-24 11:00:00',
+        'ts_end' => '2017-04-24 12:11:00',
+        'limit' => '10',
         'cursor' => '0',
         'order' => 'desc'
     ];
