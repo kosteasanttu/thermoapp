@@ -139,21 +139,21 @@ h4{
 }
 .henkilökuvaus_santtu:hover{
 	box-shadow: 4px 6px 12px 7px grey;
-    transform: rotate(2deg) translateX(0px) translateY(1px);
+    /*transform: rotate(2deg) translateX(0px) translateY(1px);*/
     background-color: white;
     transition-property: box-shadow, transform, background-color;
     transition-duration: 1s, .5s, .1s;
 }
 .henkilökuvaus_matias:hover{
 	box-shadow: 4px 6px 12px 7px grey;
-    transform: rotate(2deg) translateX(0px) translateY(1px);
+    /*transform: rotate(2deg) translateX(0px) translateY(1px);*/
     background-color: white;
     transition-property: box-shadow, transform, background-color;
     transition-duration: 1s, .5s, .1s;
 }
 .henkilökuvaus_viljami:hover{
 	box-shadow: 4px 6px 12px 7px grey;
-    transform: rotate(2deg) translateX(0px) translateY(1px);
+    /*transform: rotate(2deg) translateX(0px) translateY(1px);*/
     background-color: white;
     transition-property: box-shadow, transform, background-color;
     transition-duration: 1s, .5s, .1s;
