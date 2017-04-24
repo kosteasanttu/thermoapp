@@ -94,11 +94,12 @@ if(count($response_members->body->data) >= 4){
     }
 
     // Escape user inputs for security
-    $ptemp = mysqli_real_escape_string($db, $_REQUEST['value']);
+    // $ptemp = mysqli_real_escape_string($db, $_REQUEST['value']);
     
 
     // attempt insert query execution
     $sql = "INSERT INTO temperature (value) VALUES ('$ptemp')";
+    
     if(mysqli_query($db, $sql)){
         echo "Records added successfully.";
         echo "<br></br>";
@@ -106,7 +107,7 @@ if(count($response_members->body->data) >= 4){
 
         echo ("<SCRIPT LANGUAGE='JavaScript'>
                 window.alert('temperature data uppdated!')
-                window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/tokasivu2.php';
+                window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/mySignalsexample.php';
                 </SCRIPT>");
 
         exit();
