@@ -313,4 +313,5 @@ h1 #box{
 #refresh {
     justify-content: center;
     text-align: center;
+    margin:2px;
 }
