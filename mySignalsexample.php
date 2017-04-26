@@ -100,7 +100,7 @@ if(count($response_members->body->data) >= 4){
     
 
     // attempt insert query execution
-    $sql = "INSERT INTO temperature (value, ssn) VALUES ('$ptemp', 777777-7777)";
+    $sql = "INSERT INTO temperature (value, ssn) VALUES ('$ptemp', '777777-7777')";
     
     if(mysqli_query($db, $sql)){
         echo "Records added successfully.";
