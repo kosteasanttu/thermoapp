@@ -327,8 +327,6 @@ h1 #box{
 }
 
 .nurse_vasen{
-	width: 1016px;
-	height: 512px;
     max-width: 40%;
     max-height: 40%;
     margin: 0;
@@ -339,6 +337,7 @@ h1 #box{
 
 .nurse_vasen img{
 	padding-top: 20px;
+	padding-bottom: 50px;
 }
 
 #refresh {
