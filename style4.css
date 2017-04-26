@@ -336,15 +336,15 @@ h1 #box{
 
 .add_patient{
 
-	background-color: black;
+	background-color: rgb(39, 185, 154);
 }
 
 .delete_patient{
 
-	background-color: black;
+	background-color: rgb(39, 185, 154);
 }
 
 
 .selected {
-    background-color: black;
+    background-color: rgb(39, 185, 154);
 }
