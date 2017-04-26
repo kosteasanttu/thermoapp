@@ -21,7 +21,7 @@
             <div id="boxinfo">
                
                <form action="index.php" method="post">
-                  <input class="submit" type="submit" value="Sisään"/><br />
+                  <input class="submit" type="submit" value="Login"/><br />
                </form>
                
             </div>
