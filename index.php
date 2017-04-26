@@ -11,11 +11,13 @@
     
  
         
-   <body >
-      <img id="banner1" src="img/testitesti.png" alt="ThermoApp">   
+   <body >  
    
       <div id="wrapper">
          <div id="box">
+
+            <img id="banner1" src="img/testitesti.png" alt="ThermoApp">   
+
             <div id="login"><b>Login</b></div>
             
             <div id="boxinfo">
