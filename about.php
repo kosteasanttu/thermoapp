@@ -34,7 +34,7 @@
 		</div>
 
 		<div class="nurse_vasen">
-			<img src="img/nurse.jpg">
+			<img src="img/nurse.jpg" width="700" height="500">
 		</div>
 
 		<div class="about">
