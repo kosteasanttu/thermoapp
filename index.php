@@ -16,7 +16,7 @@
       <div id="wrapper">
          <div id="box">
 
-            <img id="banner1" src="img/testitesti.png" alt="ThermoApp" width="300" height="200">
+            <img id="banner1" src="img/testitesti.png" alt="ThermoApp" width="200" height="64">
             
             <div id="boxinfo">
                
