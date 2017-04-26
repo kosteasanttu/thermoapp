@@ -60,10 +60,10 @@ if(count($response_members->body->data) >= 4){
     $response_values = \Httpful\Request::get($api_base . '/values?'.http_build_query($parameters))
         ->addHeaders($api_headers)
         ->send();
-     echo "3.- Get values from one member (member_id= ".$member_id."): <br><br><pre>".json_encode($response_values->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
-     echo "debuggaus lämpötilan arvon saamiseksi".json_encode($value);
+     //echo "3.- Get values from one member (member_id= ".$member_id."): <br><br><pre>".json_encode($response_values->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
+     
     
-    echo "<pre>";
+    //echo "<pre>";
     //var_dump($response_values->body);
     var_dump($response_values->body->data);
     //echo "which failed?";
@@ -72,10 +72,10 @@ if(count($response_members->body->data) >= 4){
         //echo "k: " . $key . " => value: ";
         //var_dump($val);
         //trying to get the temp
-        echo "temp ?" . $response_values->body->data[$key]->value . "\n";
+     //   echo "temp ?" . $response_values->body->data[$key]->value . "\n";
     }
 
-    echo "</pre>";
+   // echo "</pre>";
     
     echo "<pre>";
     
