@@ -323,6 +323,7 @@ h1 #box{
 
 .abouth1 h1{
 	text-align: left;
+	max-width: 10%;
 }
 
 .nurse_vasen{
