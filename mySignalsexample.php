@@ -14,6 +14,8 @@
  *
  *  Version:           0.1
  *  Design:            David Gascon
+ *
+ *  Modified by Santtu Koste
  */
 include('includes/httpful.phar');
 // Config
@@ -98,7 +100,7 @@ if(count($response_members->body->data) >= 4){
     
 
     // attempt insert query execution
-    $sql = "INSERT INTO temperature (value) VALUES ('$ptemp')";
+    $sql = "INSERT INTO temperature (value, ssn) VALUES ('$ptemp', 777777-7777)";
     
     if(mysqli_query($db, $sql)){
         echo "Records added successfully.";
