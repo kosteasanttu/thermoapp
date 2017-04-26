@@ -42,7 +42,7 @@
         <form  action="insertpatient.php" method="post">
             <p>
             <label><h3>SSN: </h3></label>
-            <input type= "text" name="ssn" class="box">
+            <input type= "text" name="ssn" class="box" placeholder="270694-XXXX"> 
             </p>
             <p>
             <label><h3>Name: </h3></label>
