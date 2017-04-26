@@ -56,7 +56,7 @@
                 
         //$query = "SELECT * FROM `patients` ORDER BY ssn, name, location";
         
-        $query = "SELECT patients.ssn, patients.name, patients.location, temperature.value 
+        $query = "SELECT DISTINCT patients.ssn, patients.name, patients.location, temperature.value 
         FROM patients 
         INNER JOIN temperature ON patients.ssn=temperature.ssn
         ORDER BY ssn";
