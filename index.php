@@ -13,7 +13,7 @@
         
    <body >  
    
-      <div id="wrapper">
+      <div id="wrapper_1">
          <div id="box">
 
             <img id="banner1" src="img/testitesti.png" alt="ThermoApp" width="200" height="64">
