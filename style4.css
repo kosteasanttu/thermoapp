@@ -326,6 +326,8 @@ h1 #box{
     max-height: 30%;
     margin: 0;
     display: initial;
+    margin-top: 5%;
+    margin-left: 5%;
     
 }
 #refresh {
