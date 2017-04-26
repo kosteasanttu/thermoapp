@@ -321,6 +321,10 @@ h1 #box{
     margin-right: 10%;
 }
 
+.abouth1 h1{
+	text-align: left;
+}
+
 .nurse_vasen{
     max-width: 40%;
     max-height: 30%;
