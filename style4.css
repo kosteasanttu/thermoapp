@@ -332,9 +332,13 @@ h1 #box{
     margin: 0;
     display: initial;
     margin-top: 5%;
-    margin-left: 5%;
-    
+    margin-left: 5%;   
 }
+
+.nurse_vasen img{
+	padding-top: 20px;
+}
+
 #refresh {
     justify-content: center;
     text-align: center;
