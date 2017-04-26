@@ -38,6 +38,11 @@ echo "1.- Login: <br><br>".$response_login->raw_body."<hr><br>";
 //Save the Token in the header array.
 if($response_login->code == 200){
     $api_headers['Authorization'] = 'Bearer '.$response_login->body->token;
+    
+    echo ("<SCRIPT LANGUAGE='JavaScript'>
+                window.alert('temperature data uppdated!')
+                window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/tokasivu2.php';
+                </SCRIPT>");
 }
 //2.- Get my members
 $response_members = \Httpful\Request::get($api_base . '/members')
