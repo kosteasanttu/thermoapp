@@ -18,10 +18,11 @@
 
 <body>
 
-	<div id="wrapper">
-		<div id="banner"></div>
-			<img id="banner" src="img/testitesti.png" alt="ThermoApp">
-		
+    <a href="tokasivu2.php">
+		<img id="banner" src="img/testitesti.png" alt="ThermoApp">
+	</a>
+
+	<div id="wrapper">	
 		<div id="header">
 			<ul class="topnav">
             <li><a href="tokasivu2.php">Patient list</a></li>
