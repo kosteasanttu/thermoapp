@@ -56,10 +56,7 @@
                 
         //$query = "SELECT * FROM `patients` ORDER BY ssn, name, location";
         
-        $query = "SELECT DISTINCT patients.ssn, patients.name, patients.location, temperature.value 
-        FROM patients 
-        INNER JOIN temperature ON patients.ssn=temperature.ssn
-        ORDER BY ssn";
+        $query = "SELECT DISTINCT patients.ssn, patients.name, patients.location, temperature.value, MAX(temperature.date) FROM patients INNER JOIN temperature ON patients.ssn=temperature.ssn ORDER BY ssn";
                 
         $listresult = mysqli_query($db,$query);
         if($listresult === false){
