@@ -38,7 +38,7 @@
         <div id ="box">
         <div id ="boxinfo">
 		<div id="addform">  
-            <h1>Delete patient by ssn</h1>
+            <h1>Delete patient by social security number</h1>
         <form  action="deletepatient.php" method="post">
             <p>
             <label><h3>SSN: </h3></label>
