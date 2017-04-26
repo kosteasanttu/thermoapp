@@ -16,11 +16,10 @@
 
 <body>
 
-    <a href="tokasivu2.php">
-        <img id="banner" src="img/testitesti.png" alt="ThermoApp">
-    </a>
-
 	<div id="wrapper">
+		<div id="banner"></div>
+			<img id="banner" src="img/testitesti.png" alt="ThermoApp">
+		
 		<div id="header">
 			<ul class="topnav">
             <li><a class="selected" href="tokasivu2.php">Patient list</a></li>
@@ -31,13 +30,6 @@
             <li class="right"><a href="ulos.php">Log out</a></li>
             </ul>
 		</div><!-- #header -->
-
-        <div class="lomake_selitys">
-            <h4><span style="color:red">Punainen tila</span> tarkoittaa, että potilaan lämpötila on ylittänyt kriittisen lämpötila-arvon 39°C</h4>
-            <h4><span style="color:yellow">Keltainen tila</span> tarkoittaa, että potilaan lämpötila on ylittänyt normaalin kuumerajan +37°C</h4>   
-            <h4><span style="color:green"> Vihreä tila</span> tarkoittaa, että potilaan lämpötila on normaalien lämpötila-arvojen sisällä</h4>
-        </div>
-        
         <div id="refresh">
         <button class="submit" onclick="window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/mySignalsexample.php'">Refresh</button>
         </div>
@@ -54,7 +46,14 @@
         <?php
         include("dbconnecttest.php");
         session_start();
-        $query = "SELECT * FROM `patients` ORDER BY ssn, name, location";
+                
+        //$query = "SELECT * FROM `patients` ORDER BY ssn, name, location";
+        
+        $query = "SELECT patients.ssn, patients.name, patients.location, temperature.value 
+        FROM patients 
+        INNER JOIN temperature ON patients.ssn=temperature.ssn
+        ORDER BY ssn";
+                
         $listresult = mysqli_query($db,$query);
         if($listresult === false){
             echo "query failed:" + mysqli_error($db);
@@ -67,6 +66,7 @@
             <td><?php echo $row['ssn']?></td>
             <td><?php echo $row['name']?></td>
             <td><?php echo $row['location']?></td>
+            <td><?php echo $row['value']?></td>
         </tr>
 			
 		<?php
