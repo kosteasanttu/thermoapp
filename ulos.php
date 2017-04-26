@@ -21,7 +21,7 @@
             <div id="boxinfo">
                
                <form action="index.php" method="post">
-                  <input class="submit" type="submit" value="Uudelleen kirjautuminen" /><br />
+                  <input class="submit1" type="submit" value="Uudelleen kirjautuminen" /><br />
                </form>
                
             </div>
