@@ -241,6 +241,10 @@ tr, td{
 h1 #box{
     text-align: left;
 }
+#box1{
+	margin:100px;
+}
+
 #boxinfo{
     text-align: center;
 }
