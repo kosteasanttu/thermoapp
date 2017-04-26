@@ -31,9 +31,11 @@
             </ul>
 		</div><!-- #header -->
 
-        <h4><span style="color:red">Punainen tila</span> tarkoittaa, että potilaan lämpötila on ylittänyt kriittisen lämpötila-arvon 39°C</h4>
-        <h4><span style="color:yellow">Keltainen tila</span> tarkoittaa, että potilaan lämpötila on ylittänyt normaalin kuumerajan +37°C</h4>   
-        <h4><span style="color:green"> Vihreä tila</span> tarkoittaa, että potilaan lämpötila on normaalien lämpötila-arvojen sisällä</h4>
+        <div class="lomake_selitys">
+            <h4><span style="color:red">Punainen tila</span> tarkoittaa, että potilaan lämpötila on ylittänyt kriittisen lämpötila-arvon 39°C</h4>
+            <h4><span style="color:yellow">Keltainen tila</span> tarkoittaa, että potilaan lämpötila on ylittänyt normaalin kuumerajan +37°C</h4>   
+            <h4><span style="color:green"> Vihreä tila</span> tarkoittaa, että potilaan lämpötila on normaalien lämpötila-arvojen sisällä</h4>
+        </div>
         
         <div id="refresh">
         <button class="submit" onclick="window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/mySignalsexample.php'">Refresh</button>
