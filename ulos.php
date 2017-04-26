@@ -21,7 +21,7 @@
             <div id="boxinfo">
                
                <form action="index.php" method="post">
-                  <input type = "submit" value = " Kirjaudu sisään uudelleen " /><br />
+                  <input class="submit" type = "submit" value = " Kirjaudu sisään uudelleen " /><br />
                </form>
                
             </div>
