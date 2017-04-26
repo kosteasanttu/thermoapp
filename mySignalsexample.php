@@ -98,7 +98,7 @@ if(count($response_members->body->data) >= 4){
     // Escape user inputs for security
     // $ptemp = mysqli_real_escape_string($db, $_REQUEST['value']);
     
-    $ssn = 777777-7777;
+    $ssn = "777777-7777";
     // attempt insert query execution
     $sql = "INSERT INTO temperature (value, ssn) VALUES ('$ptemp', '$ssn')";
     
