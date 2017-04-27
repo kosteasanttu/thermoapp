@@ -42,7 +42,7 @@
 
         <form  action="deletepatient.php" method="post">
             <p>
-            <label class="SSN"><h3>SSN: </h3></label>
+            <label><h3>SSN: </h3></label>
             <input type="text" name="ssn" class="box" placeholder="270694-XXXX">
             </p>
             <input class="submit" type="submit" value="Delete">
