@@ -54,7 +54,7 @@
         include("dbconnecttest.php");
         session_start();
                 
-        //$query = "SELECT * FROM `patients` ORDER BY ssn, name, location";
+        //$query2 = "SELECT * FROM `patients` ORDER BY ssn, name, location";
         
         $query = "SELECT DISTINCT patients.ssn, patients.name, patients.location, temperature.value, MAX(temperature.date) FROM patients INNER JOIN temperature ON patients.ssn=temperature.ssn ORDER BY ssn";
                 
@@ -64,13 +64,19 @@
         }
             else{
                 while($row = mysqli_fetch_assoc($listresult)){
-                   // var_dump($row);      
+                   // var_dump($row); 
+                    
+        
         ?>
 		<tr>
             <td><?php echo $row['ssn']?></td>
             <td><?php echo $row['name']?></td>
             <td><?php echo $row['location']?></td>
-            <td><?php echo $row['value']?></td>
+            <td><?php
+            if($row['value']<36){
+                echo <span style="color:blue;"> $row['value']
+            }else{
+            echo $row['value']?></td>}
         </tr>
 			
 		<?php

@@ -33,7 +33,7 @@
          $_SESSION['login_user'] = $myusername;
          
          header("location: tokasivu2.php");
-         echo("efkekfekf");
+         echo("Done");
       }else {
          $error = "Your Login Name or Password is invalid";
           /*
