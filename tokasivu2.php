@@ -74,7 +74,7 @@
             <td><?php echo $row['location']?></td>
             <td><?php
             if($row['value']<36){
-                echo <span style="color:blue;"> $row['value']
+                echo '<span style="color:blue;"> $row['value']'
             }else{
             echo $row['value']?></td>}
         </tr>
