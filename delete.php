@@ -37,12 +37,12 @@
         
         <div id ="box">
         <div id ="boxinfo">
-		<div id="addform1">  
+		<div id="addform">  
             <h1>Delete patient by SSN</h1>
 
         <form  action="deletepatient.php" method="post">
             <p>
-            <label><h3>SSN: </h3></label>
+            <label text-align="left"><h3>SSN: </h3></label>
             <input type="text" name="ssn" class="box" placeholder="270694-XXXX">
             </p>
             <input class="submit" type="submit" value="Delete">
