@@ -72,11 +72,7 @@
             <td><?php echo $row['ssn']?></td>
             <td><?php echo $row['name']?></td>
             <td><?php echo $row['location']?></td>
-            <td><?php
-            if($row['(int)value']<36){
-                echo '<span style="color:blue;"> $row['(int)value']'
-            }else{
-            echo $row['value']?></td>}
+            <td><?php echo $row['value']?></td>}
         </tr>
 			
 		<?php
