@@ -37,7 +37,7 @@
         
         <div id ="box">
         <div id ="boxinfo">
-		<div id="addform">  
+		<div id="addform1">  
             <h1>Delete patient by SSN</h1>
 
         <form  action="deletepatient.php" method="post">
