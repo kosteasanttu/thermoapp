@@ -248,6 +248,9 @@ tr, td{
     padding:1em 10em;
     display: inline-block;
 }
+.SSN{
+	text-align: left;
+}
 
 h1 #box{
     text-align: left;
