@@ -21,7 +21,7 @@ if(mysqli_query($db, $sql)){
     echo '<a href="http://users.metropolia.fi/~santtumk/thermoapptestailuu/tokasivu2.php">  Back to patientslist</a>';
     
     echo ("<SCRIPT LANGUAGE='JavaScript'>
-            window.alert('Patient deleted!')
+            window.alert('Patient $ssn deleted!')
             window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/tokasivu2.php';
             </SCRIPT>");
     
