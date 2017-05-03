@@ -72,7 +72,8 @@ if(count($response_members->body->data) >= 4){
     
     //echo "<pre>";
     //var_dump($response_values->body);
-    var_dump($response_values->body->data);
+    // getting temperature data from array with var dump
+   // var_dump($response_values->body->data);
     //echo "which failed?";
     //var_dump($response_values->body["data"]);
     foreach($response_values->body->data as $key => $val){
@@ -126,11 +127,12 @@ if(count($response_members->body->data) >= 4){
     $tempalert = "SELECT value FROM `temperature` WHERE date = (SELECT MAX(date) FROM temperature)";
         if((int)$tempalert < 35){
             mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
+             echo '<script>console.log("Notification about cold temperature sent")</script>';
         }elseif((int)$tempalert > 41){
             mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too high!","From: ThermoPojat");
         }
     
-    
+     echo '<script>console.log("Temperature from MySignals uppdated")</script>';
     mysqli_close($db);
     
 }
