@@ -82,7 +82,8 @@
 			
 		<?php
             }
-            }
+            // tohon ehkä kaarisulku
+                
             ?>
         
         </table>
