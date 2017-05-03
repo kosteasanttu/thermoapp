@@ -78,7 +78,7 @@
             <td><?php echo $row['location']?></td>
             <td><?php echo $row['value']?></td>
         </tr>
-			Kaiku
+			
 		<?php
             }
             }

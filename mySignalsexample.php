@@ -126,7 +126,9 @@ if(count($response_members->body->data) >= 4){
     
     //alert if temperature too high or low
     $tempalert = "SELECT value FROM `temperature` WHERE date = (SELECT MAX(date) FROM temperature)";
+    
         if((int)$tempalert < 35){
+            echo $tempalert
             mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
              mail("kostesa@gmail.com","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
              echo '<script>console.log("Notification about cold temperature sent")</script>';
