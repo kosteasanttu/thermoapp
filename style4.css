@@ -215,10 +215,10 @@ li a:hover {
     font-family: Helvetica, Arial, sans-serif;
     border-collapse: collapse;
     border-spacing: 0;
-    background-color: rgb(39, 185, 154);
+    
 }
 tr:nth-child(even) {
-    background-color: #d6d6c2;
+    background-color: #dddddd;
 }
 tr, td{
     border: 1px solid #dddddd;	
