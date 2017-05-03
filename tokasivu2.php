@@ -32,9 +32,9 @@
 		</div><!-- #header -->
 
         <div class="lomake_selitys">
-            <h4><span style="color:red">Punainen tila</span> tarkoittaa, että potilaan lämpötila on ylittänyt kriittisen lämpötila-arvon 39°C</h4>
-            <h4><span style="color:yellow">Keltainen tila</span> tarkoittaa, että potilaan lämpötila on ylittänyt normaalin kuumerajan +37°C</h4>   
-            <h4><span style="color:green"> Vihreä tila</span> tarkoittaa, että potilaan lämpötila on normaalien lämpötila-arvojen sisällä</h4>
+            <h4><span style="color:red">Punainen </span> = YLI 39°C / ALLE 36°C </h4>
+            <h4><span style="color:yellow">Keltainen </span> = +37°C</h4>   
+            <h4><span style="color:green">Vihreä </span> = 36°C - 37°C</h4>
         </div>
         
         <div id="refresh">
