@@ -212,16 +212,20 @@ li a:hover {
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 0px;
-    font-family: arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     border-collapse: collapse;
+    border-spacing: 0;
     
 }
 tr:nth-child(even) {
     background-color: #dddddd;
+    background: #F3F3F3;
 }
 tr, td{
     border: 1px solid #dddddd;
     text-align: left;
+    background: #FAFAFA;
+    border: 1px solid #CCC; height: 30px;
 }
 
 .right {
