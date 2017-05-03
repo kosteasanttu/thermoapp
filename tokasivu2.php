@@ -58,7 +58,7 @@
         //$value = "SELECT temperature.value FROM temperature WHERE temperature.date = (SELECT MAX(temperature.date) FROM temperature)";
                 
                 
-        $query = "SELECT DISTINCT patients.ssn, patients.name, temperature.value FROM patients LEFT JOIN temperature ON patients.ssn = temperature.ssn GROUP BY patients.ssn ORDER BY `temperature`.`value` DESC";        
+        $query = "SELECT DISTINCT patients.ssn, patients.name, patients.location, temperature.value FROM patients LEFT JOIN temperature ON patients.ssn = temperature.ssn GROUP BY patients.ssn ORDER BY `temperature`.`value` DESC";        
                 
         //$query1 = "SELECT DISTINCT patients.ssn, patients.name, patients.location, temperature.value, MAX(temperature.date) FROM patients INNER JOIN temperature ON patients.ssn=temperature.ssn ORDER BY ssn";
                 
