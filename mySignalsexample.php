@@ -121,6 +121,16 @@ if(count($response_members->body->data) >= 4){
     } else{
         echo "ERROR: Could not able to execute insertion $sql. " . mysqli_error($db);
     }
+    
+    //alert if temperature too high or low
+    $tempalert = "SELECT value FROM `temperature` WHERE date = (SELECT MAX(date) FROM temperature)";
+        if((int)$tempalert < 35){
+            mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
+        }elseif((int)$tempalert > 41){
+            mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too high!","From: ThermoPojat");
+        }
+    
+    
     mysqli_close($db);
     
 }
