@@ -119,7 +119,7 @@ if(count($response_members->body->data) >= 4){
                 </SCRIPT>");
         */
 
-        exit();
+        
     } else{
         echo "ERROR: Could not able to execute insertion $sql. " . mysqli_error($db);
     }
