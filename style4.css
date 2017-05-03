@@ -219,12 +219,10 @@ li a:hover {
 }
 tr:nth-child(even) {
     background-color: #dddddd;
-    background: #F3F3F3;
 }
 tr, td{
     border: 1px solid #dddddd;
     text-align: left;
-    background: #FAFAFA;
     border: 1px solid #CCC; height: 30px;
 }
 
