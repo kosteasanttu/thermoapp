@@ -76,7 +76,7 @@
             <td><?php echo $row['ssn']?></td>
             <td><?php echo $row['name']?></td>
             <td><?php echo $row['location']?></td>
-            <td><?php echo $row['value']?></td>}
+            <td><?php echo $row['value']?></td>
         </tr>
 			
 		<?php
