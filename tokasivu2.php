@@ -57,8 +57,8 @@
         //$query2 = "SELECT * FROM `patients` ORDER BY ssn, name, location";
         $tempalert = "SELECT value FROM `temperature` WHERE date = (SELECT MAX(date) FROM temperature)";
         if((int)$tempalert < 36){
-            echo $tempalert;
-            mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low!");
+            
+            mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
         }
                 
         $query = "SELECT DISTINCT patients.ssn, patients.name, patients.location, temperature.value, MAX(temperature.date) FROM patients INNER JOIN temperature ON patients.ssn=temperature.ssn ORDER BY ssn";
