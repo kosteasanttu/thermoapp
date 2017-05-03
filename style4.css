@@ -275,8 +275,8 @@ h1 #box{
     margin-right: 40%;
 }
 .lomake_selitys h4{
-	text-align: center;
-	margin:5px;
+	text-align: left;
+	margin:10px;
 	display: block;
 	-webkit-text-stroke: .5px black;
 	-webkit-margin-before: 0em;
