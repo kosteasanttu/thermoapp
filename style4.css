@@ -215,6 +215,7 @@ li a:hover {
     font-family: Helvetica, Arial, sans-serif;
     border-collapse: collapse;
     border-spacing: 0;
+    background-color: #d6d6c2;
     
 }
 tr:nth-child(even) {
