@@ -59,7 +59,7 @@
                 
                 
         $query = "SELECT DISTINCT patients.ssn, patients.name, temperature.value FROM patients LEFT JOIN temperature ON patients.ssn = temperature.ssn GROUP BY patients.ssn
-        "        
+        ";        
                 
         //$query1 = "SELECT DISTINCT patients.ssn, patients.name, patients.location, temperature.value, MAX(temperature.date) FROM patients INNER JOIN temperature ON patients.ssn=temperature.ssn ORDER BY ssn";
                 
