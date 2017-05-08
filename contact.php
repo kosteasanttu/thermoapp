@@ -39,7 +39,7 @@
 
 		<div class="kuvat">
 			<div class="henkilökuvaus_santtu">
-				<img id="kuva1" src="img/koste.jpg" height="170" width="170">
+				<img id="kuva1" alt="santtukuva" src="img/koste.jpg" height="170" width="170">
 				<p class="clear">Santtu Koste</p>
 				<div class="kehys1">
 					<p>Oppilaitos: Metropolia Ammattikorkeakoulu</p>
@@ -49,7 +49,7 @@
 			</div>
 
 			<div class="henkilökuvaus_matias">
-				<img id="kuva2 clear" src="img/säilä.jpg" height="170" width="170">
+				<img id="kuva2" alt="matiaskuva" src="img/säilä.jpg" height="170" width="170">
 				<p class="clear">Matias Säilä</p>
 				<div class="kehys2">
 					<p>Oppilaitos: Metropolia Ammattikorkeakoulu</p>
@@ -59,7 +59,7 @@
 			</div>
 
 			<div class="henkilökuvaus_viljami">
-				<img id="kuva3 clear" src="img/koho1.jpg" height="170" width="170">
+				<img id="kuva3" alt="viljamikuva" src="img/koho1.jpg" height="170" width="170">
 				<p class="clear">Viljami Koho</p>
 				<div class="kehys3">
 					<p>Oppilaitos: Metropolia Ammattikorkeakoulu</p>
