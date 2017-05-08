@@ -110,7 +110,7 @@ if(count($response_members->body->data) >= 4){
     $tempalert = "SELECT value FROM `temperature` WHERE date = (SELECT MAX(date) FROM temperature)";
     
     if(mysqli_query($db, $sql)){
-        echo "Records added successfully.";
+        echo "Records added successfully. ehkä";
         echo "<br></br>";
         echo '<a href="http://users.metropolia.fi/~santtumk/thermoapptestailuu/tokasivu2.php">  Back to patientslist </a>';
 
