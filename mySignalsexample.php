@@ -65,7 +65,7 @@ if(count($response_members->body->data) >= 4){
         ->addHeaders($api_headers)
         ->send();
      //echo "3.- Get values from one member (member_id= ".$member_id."): <br><br><pre>".json_encode($response_values->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
-     
+    }
     
     //echo "<pre>";
     //var_dump($response_values->body);
@@ -139,4 +139,4 @@ if(count($response_members->body->data) >= 4){
      echo '<script>console.log("Temperature from MySignals uppdated")</script>';
     mysqli_close($db);
     
-}
+
