@@ -21,7 +21,6 @@
     </a>
 
 	<div id="wrapper">
-		
 		<div id="header">
 			<ul class="topnav">
             <li><a class="selected" href="tokasivu2.php">Patient list</a></li>
