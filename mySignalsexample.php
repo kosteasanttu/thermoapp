@@ -115,7 +115,7 @@ if(count($response_members->body->data) >= 4){
         echo '<a href="http://users.metropolia.fi/~santtumk/thermoapptestailuu/tokasivu2.php">  Back to patientslist </a>';
 
         echo ("<SCRIPT LANGUAGE='JavaScript'>
-                window.alert('temperature data updated from sensor!'$tempalert'')
+                window.alert('temperature data updated from sensor!'$tempalert''$ptemp'')
                 window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/tokasivu2.php';
                 </SCRIPT>");
         
@@ -127,11 +127,12 @@ if(count($response_members->body->data) >= 4){
     
     //alert if temperature too high or low
 
+    /*
     
         if((int)$tempalert < 35){
             echo $tempalert;
-            mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low! '$tempalert'","From: ThermoPojat");
-             mail("santtu.koste@metropolia.fi","ThermoApp alert!","Patient temperature too low! '$tempalert'","From: ThermoPojat");
+            mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
+             mail("santtu.koste@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
              
             
             
@@ -143,4 +144,5 @@ if(count($response_members->body->data) >= 4){
     mysqli_close($db);
     
 }
+*/
 ?>
