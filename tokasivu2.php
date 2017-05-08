@@ -90,14 +90,15 @@
             
             
 		</div><!-- #content -->
-        
+
+        <div id="footer">
+            &#169;ThermoApp<p>Ryhmä 3 SKK</p>
+        </div><!-- #footer -->
+    
 		
 	</div><!-- #wrapper -->
 	
 
-    <div id="footer">
-            &#169;ThermoApp<p>Ryhmä 3 SKK</p>
-        </div><!-- #footer -->
         
 </body>
 
