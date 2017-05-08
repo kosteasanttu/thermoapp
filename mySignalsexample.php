@@ -111,9 +111,11 @@ if(count($response_members->body->data) >= 4){
         echo "<br></br>";
         echo '<a href="http://users.metropolia.fi/~santtumk/thermoapptestailuu/tokasivu2.php">  Back to patientslist </a>';
 
+        echo ("<SCRIPT LANGUAGE='JavaScript'>
+                window.alert('temperature data updated from sensor!'$tempalert''$ptemp'')
+                window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/tokasivu2.php';
+                </SCRIPT>");
         
-        
-
         
     } else{
         echo "ERROR: Could not able to execute insertion $sql. " . mysqli_error($db);
@@ -125,8 +127,8 @@ if(count($response_members->body->data) >= 4){
     
         if((int)$tempalert < 35){
             echo $tempalert;
-            //mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
-             //mail("santtu.koste@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
+            mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
+            mail("santtu.koste@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
              
             
             
