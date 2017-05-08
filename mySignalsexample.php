@@ -78,7 +78,7 @@ if(count($response_members->body->data) >= 4){
         //var_dump($val);
         //trying to get the temp
      //   echo "temp ?" . $response_values->body->data[$key]->value . "\n";
-    }
+    //}
 
    // echo "</pre>";
     
