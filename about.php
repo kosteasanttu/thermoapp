@@ -21,7 +21,6 @@
 	</a>
 	
 	<div id="wrapper">
-		<div id="banner"></div>
 			
 		<div id="header">
 			<ul class="topnav">
@@ -35,7 +34,7 @@
 		</div>
 
 		<div class="nurse_vasen">
-			<img src="img/nurse.jpg" width="550" height="400">
+			<img alt="hoitaja" src="img/nurse.jpg" width="550" height="400">
 		</div>
 
 		<div class="about">
