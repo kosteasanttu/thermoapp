@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="icon" href="img/perkele.png" type="image/gif" sizes="16x16">
@@ -19,7 +19,7 @@
 
 	<div id="wrapper">
 		<div id="banner"></div>
-			<img id="banner" src="img/testitesti.png" alt="ThermoApp">
+			<img src="img/testitesti.png" alt="ThermoApp">
 		
 		<div id="header">
 			<ul class="topnav">
@@ -43,7 +43,7 @@
         </div>
         
             <div id="content">
-            <table class="taulukko" border="1">
+            <table class="taulukko">
               <tr>
                 <th>SSN</th>
                 <th>NAME</th>

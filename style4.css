@@ -60,6 +60,7 @@ h4{
     margin-top: 10px;/* Height of the footer element */
     padding-bottom: 100px;
     justify-content: center;
+    border:1px;
 }
 @media screen and (max-width: 480px) {
     #content {
