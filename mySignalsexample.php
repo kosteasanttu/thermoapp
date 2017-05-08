@@ -118,7 +118,7 @@ if(count($response_members->body->data) >= 4){
         
         
     } else{
-        echo "ERROR: Could not able to execute insertion $sql. " . mysqli_error($db);
+        echo "ERROR: Could not able to execute insertion, something went wrong $sql. " . mysqli_error($db);
     }
     
     //alert if temperature too high or low
