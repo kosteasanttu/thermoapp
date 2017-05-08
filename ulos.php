@@ -16,7 +16,7 @@
    
       <div id="wrapper">
          <div id="box">
-            <div id="login"><b>Olet kirjautunut ulos!</b></div>
+            <div id="login"><b>You have signed out!</b></div>
             
             <div id="boxinfo">
                
