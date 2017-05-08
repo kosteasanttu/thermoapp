@@ -115,7 +115,7 @@ if(count($response_members->body->data) >= 4){
         echo '<a href="http://users.metropolia.fi/~santtumk/thermoapptestailuu/tokasivu2.php">  Back to patientslist </a>';
 
         
-        moi
+        
 
         
     } else{
