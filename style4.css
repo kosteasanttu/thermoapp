@@ -330,14 +330,15 @@ h1 #box{
     float: left;
     display: block;
     max-height:80%;
-    margin:0;
     text-align: left;
-    margin-right: 10%;
+    margin-right: 40px;
+    margin-left: 55px;
 }
 
 
 .about h1{
 text-align: left;
+margin-top: 40px;
 
 
 	}
