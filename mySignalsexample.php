@@ -107,6 +107,7 @@ if(count($response_members->body->data) >= 4){
     $ssn = "777777-7777";
     // attempt insert query execution
     $sql = "INSERT INTO temperature (value, ssn) VALUES ('$ptemp', '$ssn')";
+    $tempalert = "SELECT value FROM `temperature` WHERE date = (SELECT MAX(date) FROM temperature)";
     
     if(mysqli_query($db, $sql)){
         echo "Records added successfully.";
@@ -114,7 +115,7 @@ if(count($response_members->body->data) >= 4){
         echo '<a href="http://users.metropolia.fi/~santtumk/thermoapptestailuu/tokasivu2.php">  Back to patientslist </a>';
 
         echo ("<SCRIPT LANGUAGE='JavaScript'>
-                window.alert('temperature data updated from sensor!')
+                window.alert('temperature data updated from sensor!'$tempalert'')
                 window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/tokasivu2.php';
                 </SCRIPT>");
         
@@ -125,12 +126,12 @@ if(count($response_members->body->data) >= 4){
     }
     
     //alert if temperature too high or low
-    $tempalert = "SELECT value FROM `temperature` WHERE date = (SELECT MAX(date) FROM temperature)";
+
     
         if((int)$tempalert < 35){
             echo $tempalert;
-            mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
-             mail("santtu.koste@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
+            mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low! '$tempalert'","From: ThermoPojat");
+             mail("santtu.koste@metropolia.fi","ThermoApp alert!","Patient temperature too low! '$tempalert'","From: ThermoPojat");
              
             
             
