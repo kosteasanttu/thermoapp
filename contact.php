@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="icon" href="img/perkele.png" type="image/gif" sizes="16x16">
 	<title>ThermoApp</title>
 	
 	<link rel="stylesheet" type="text/css" href="style4.css"/>	
