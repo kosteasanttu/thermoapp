@@ -346,16 +346,16 @@ h1 #box{
     max-height: 40%;
     margin: 0;
     display: block;
-    margin-top: 5%;
-    margin-left: 5%;   
+    margin-top: 40px;
+    margin-left: 55px;   
+    margin-right: 40px;
     float: left;
 
 }
 
 .nurse_vasen img{
-	padding-top: 20px;
-	padding-bottom: 50px;
 	width: 100%;
+
 }
 
 .lomake_selitys{
