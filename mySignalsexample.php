@@ -124,12 +124,12 @@ if(count($response_members->body->data) >= 4){
     
     //alert if temperature too high or low
 
-    /*
+    
     
         if((int)$tempalert < 35){
             echo $tempalert;
-            mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
-             mail("santtu.koste@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
+            //mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
+             //mail("santtu.koste@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
              
             
             
@@ -141,4 +141,3 @@ if(count($response_members->body->data) >= 4){
     mysqli_close($db);
     
 }
-*/
