@@ -93,7 +93,7 @@
 
         <div id="footer">
             &#169;ThermoApp<p>Ryhmä 3 SKK</p>
-        </div><!-- #footer -->
+            </div><!-- #footer -->
     
 		
 	</div><!-- #wrapper -->
