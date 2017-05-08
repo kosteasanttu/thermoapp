@@ -326,7 +326,7 @@ h1 #box{
 }
 
 .about{
-    max-width: 45%;
+    width: 40%;
     float: left;
     display: block;
     max-height:80%;
@@ -345,7 +345,7 @@ margin-top: 40px;
 
 
 .nurse_vasen{
-    max-width: 45%;
+    width: 40%;
     max-height: 40%;
     margin: 0;
     display: block;
