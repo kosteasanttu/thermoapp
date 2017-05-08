@@ -65,7 +65,7 @@ if(count($response_members->body->data) >= 4){
         ->addHeaders($api_headers)
         ->send();
      //echo "3.- Get values from one member (member_id= ".$member_id."): <br><br><pre>".json_encode($response_values->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
-    oreach($response_values->body->data as $key => $val){
+    foreach($response_values->body->data as $key => $val){
     }
     }
     
@@ -75,7 +75,7 @@ if(count($response_members->body->data) >= 4){
    // var_dump($response_values->body->data);
     //echo "which failed?";
     //var_dump($response_values->body["data"]);
-   foreach($response_values->body->data as $key => $val){
+  // foreach($response_values->body->data as $key => $val){
         //echo "k: " . $key . " => value: ";
         //var_dump($val);
         //trying to get the temp
