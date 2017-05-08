@@ -46,7 +46,7 @@ $response_members = \Httpful\Request::get($api_base . '/members')
     ->addHeaders($api_headers)
     ->send();
 
-//echo "2.- Get my members: <br><br><pre>".json_encode($response_members->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
+echo "2.- Get my members: <br><br><pre>".json_encode($response_members->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
 
 // 2.1 get the dates when the user X was using the box
 //3.- Get values from the first of my members
@@ -75,12 +75,12 @@ if(count($response_members->body->data) >= 4){
     }
     }
     
-    //echo "<pre>";
-    //var_dump($response_values->body);
-    // getting temperature data from array with var dump
-   // var_dump($response_values->body->data);
-    //echo "which failed?";
-    //var_dump($response_values->body["data"]);
+    echo "<pre>";
+    var_dump($response_values->body);
+    //getting temperature data from array with var dump
+    var_dump($response_values->body->data);
+    echo "which failed?";
+    var_dump($response_values->body["data"]);
   // foreach($response_values->body->data as $key => $val){
         //echo "k: " . $key . " => value: ";
         //var_dump($val);
@@ -88,7 +88,7 @@ if(count($response_members->body->data) >= 4){
      //   echo "temp ?" . $response_values->body->data[$key]->value . "\n";
     
 
-   // echo "</pre>";
+   echo "</pre>";
     
     
     
