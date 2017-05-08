@@ -127,8 +127,8 @@ if(count($response_members->body->data) >= 4){
     
         if((int)$tempalert < 35){
             echo $tempalert;
-            mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
-            mail("santtu.koste@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
+           // mail("matias.saila@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
+            //mail("santtu.koste@metropolia.fi","ThermoApp alert!","Patient temperature too low!","From: ThermoPojat");
              
             
             
