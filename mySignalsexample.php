@@ -114,10 +114,7 @@ if(count($response_members->body->data) >= 4){
         echo "<br></br>";
         echo '<a href="http://users.metropolia.fi/~santtumk/thermoapptestailuu/tokasivu2.php">  Back to patientslist </a>';
 
-        echo ("<SCRIPT LANGUAGE='JavaScript'>
-                window.alert('temperature data updated from sensor!'$tempalert''$ptemp'')
-                window.location.href='http://users.metropolia.fi/~santtumk/thermoapp/tokasivu2.php';
-                </SCRIPT>");
+        
         
 
         
