@@ -66,6 +66,12 @@ if(count($response_members->body->data) >= 4){
         ->send();
      //echo "3.- Get values from one member (member_id= ".$member_id."): <br><br><pre>".json_encode($response_values->body, JSON_PRETTY_PRINT)."</pre><hr><br>";
     foreach($response_values->body->data as $key => $val){
+        echo "<pre>";
+    
+    $ptemp = $response_values->body->data[$key]->value;
+        echo $ptemp;
+        
+    echo "</pre>";
     }
     }
     
@@ -84,12 +90,7 @@ if(count($response_members->body->data) >= 4){
 
    // echo "</pre>";
     
-    echo "<pre>";
     
-    $ptemp = $response_values->body->data[$key]->value;
-        echo $ptemp;
-        
-    echo "</pre>";
     
     
     include("dbconnecttest.php");
