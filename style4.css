@@ -338,6 +338,7 @@ h1 #box{
 .about h1{
 	text-align: left;
 	max-width: 10%;
+	float: left;
 }
 
 .nurse_vasen{
@@ -347,6 +348,8 @@ h1 #box{
     display: initial;
     margin-top: 5%;
     margin-left: 5%;   
+    float: left;
+
 }
 
 .nurse_vasen img{
