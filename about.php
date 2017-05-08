@@ -33,6 +33,7 @@
             </ul>
 		</div>
 
+		<div class="testi">
 		<div class="nurse_vasen">
 			<img alt="hoitaja" src="img/nurse.jpg">
 		</div>
@@ -47,6 +48,7 @@
 			<div class="about1">
 				<p>Every nurse has their own individual login info. Temperature is measured automatically, value goes to database and is shown in the application. By a quick view nurses can see every patient’s temperature values at the same time. To add a new patient you will need patient’s social security number (SSN) to identify the patient, set patients name and the patient’s location.  Nurses has permission to add and delete patients from the application. The application will give an alert if temperature rises above certain temperature. Alert means that the patient needs to be checked. </p>
 			</div>
+		</div>
 		</div>
 
 		<div id="footer">

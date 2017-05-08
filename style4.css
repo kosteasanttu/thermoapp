@@ -73,6 +73,8 @@ h4{
 	border-radius: 2em;
 	text-align: center;
 	margin-bottom: 200px;
+	min-width: 80%;
+	margin: auto;
 }
 
 .clear{
