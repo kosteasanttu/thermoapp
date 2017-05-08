@@ -42,6 +42,7 @@ h4{
 }
 
 #wrapper {
+	overflow:auto;
 	min-height:100%;
 	position:relative;
 	background: url("img/yea.jpg");
