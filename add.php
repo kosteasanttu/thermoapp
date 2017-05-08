@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="icon" href="img/perkele.png" type="image/gif" sizes="16x16">
@@ -43,7 +43,7 @@
         <form  action="insertpatient.php" method="post">
             <p>
             <label><h3>SSN: </h3></label>
-            <input type= "text" name="ssn" class="box" placeholder="270694-XXXX"> 
+            <input type="text" name="ssn" class="box" placeholder="270694-XXXX"> 
             </p>
             <p>
             <label><h3>Name: </h3></label>
